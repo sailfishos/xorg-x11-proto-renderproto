@@ -1,0 +1,14 @@
+Name: xorg-x11-proto-renderproto
+Summary: X.Org X11 Protocol renderproto
+Version: 0.11
+Release: 0
+Group: Development/System
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/renderproto-%{version}.tar.bz2
+
+Provides: renderproto
+Configure: configure
+ConfigOptions:
+    - --libdir=%{_datadir}
